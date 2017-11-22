@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: e3436fbe9c2343f47a6e8c0348d611c0
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Thaigh
+    21300002: Head
+    21300004: Shoulder
+    21300006: Sword
+    21300008: Hand
+    21300010: ForeArm
+    21300012: Flap
+    21300014: Torso-Back
+    21300016: Foot
+    21300018: Shin
+    21300020: Shoulder-Left
+    21300022: ForeArm-Left
+    21300024: Hand-Left
+    21300026: Alternative
+    21300028: Torso-Front
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Thaigh
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 453
+        width: 181
+        height: 356
+      alignment: 9
+      pivot: {x: .518055439, y: .88555634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 546
+        width: 230
+        height: 289
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shoulder
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 517
+        width: 243
+        height: 295
+      alignment: 9
+      pivot: {x: .396892786, y: .836036623}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sword
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 161
+        width: 77
+        height: 622
+      alignment: 9
+      pivot: {x: .51414746, y: .133964494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hand
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 59
+        width: 121
+        height: 106
+      alignment: 9
+      pivot: {x: .184898689, y: .386954546}
+      border: {x: 2, y: 11, z: 15, w: 8}
+    - name: ForeArm
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 553
+        width: 92
+        height: 225
+      alignment: 9
+      pivot: {x: .464478195, y: .863116562}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Flap
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 51
+        width: 110
+        height: 210
+      alignment: 9
+      pivot: {x: .490096778, y: .826805055}
+      border: {x: 9, y: 0, z: 2, w: 9}
+    - name: Torso-Back
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 139
+        width: 162
+        height: 348
+      alignment: 9
+      pivot: {x: 1, y: .284008235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Foot
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 72
+        width: 126
+        height: 109
+      alignment: 9
+      pivot: {x: .311157465, y: .828022122}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shin
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 199
+        width: 120
+        height: 249
+      alignment: 9
+      pivot: {x: .509077966, y: .0890401229}
+      border: {x: 17, y: 0, z: 0, w: 0}
+    - name: Shoulder-Left
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 249
+        width: 289
+        height: 236
+      alignment: 9
+      pivot: {x: .239913151, y: .670787871}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ForeArm-Left
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 558
+        width: 97
+        height: 220
+      alignment: 9
+      pivot: {x: .432617188, y: .930788636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hand-Left
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 380
+        width: 107
+        height: 94
+      alignment: 9
+      pivot: {x: .170328021, y: .327531844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Alternative
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 8
+        width: 223
+        height: 169
+      alignment: 9
+      pivot: {x: .231024101, y: .62200743}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Torso-Front
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 207
+        width: 113
+        height: 262
+      alignment: 9
+      pivot: {x: -.00277657784, y: .280273169}
+      border: {x: 0, y: 0, z: 0, w: 3}
+  spritePackingTag: 
+  userData: 
