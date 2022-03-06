@@ -6,6 +6,7 @@ public class Parallaxing : MonoBehaviour {
 	public Transform[] backgrounds;			// Array (list) of all the back- and foregrounds to be parallaxed
 	private float[] parallaxScales;			// The proportion of the camera's movement to move the backgrounds by
 	public float smoothing = 1f;			// How smooth the parallax is going to be. Make sure to set this above 0
+	public float speed = 1f;
 
 	private Transform cam;					// reference to the main cameras transform
 	private Vector3 previousCamPos;			// the position of the camera in the previous frame
@@ -23,8 +24,9 @@ public class Parallaxing : MonoBehaviour {
 
 		// asigning coresponding parallaxScales
 		parallaxScales = new float[backgrounds.Length];
-		for (int i = 0; i < backgrounds.Length; i++) {
-			parallaxScales[i] = backgrounds[i].position.z*-1;
+		for (int i = 0; i < backgrounds.Length; i++)
+		{
+			parallaxScales[i] = backgrounds[i].position.z *-1;
 		}
 	}
 	
@@ -35,7 +37,7 @@ public class Parallaxing : MonoBehaviour {
 		for (int i = 0; i < backgrounds.Length; i++) {
 			// the parallax is the opposite of the camera movement because the previous frame multiplied by the scale
 			float camMoved = (previousCamPos.x - cam.position.x);
-			float parallax = camMoved * parallaxScales[i];
+			float parallax = camMoved * parallaxScales[i] * speed;
 
 			//Debug.Log ("Mountains " + i + " parllax = " + parallax + "Camera Moved = " + camMoved + " fraction = " + smoothing*Time.deltaTime);
 
