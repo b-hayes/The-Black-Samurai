@@ -1,48 +1,88 @@
 fileFormatVersion: 2
 guid: e3436fbe9c2343f47a6e8c0348d611c0
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Thaigh
-    21300002: Head
-    21300004: Shoulder
-    21300006: Sword
-    21300008: Hand
-    21300010: ForeArm
-    21300012: Flap
-    21300014: Torso-Back
-    21300016: Foot
-    21300018: Shin
-    21300020: Shoulder-Left
-    21300022: ForeArm-Left
-    21300024: Hand-Left
-    21300026: Alternative
-    21300028: Torso-Front
-  serializedVersion: 2
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Thaigh
+  - first:
+      213: 21300002
+    second: Head
+  - first:
+      213: 21300004
+    second: Shoulder
+  - first:
+      213: 21300006
+    second: Sword
+  - first:
+      213: 21300008
+    second: Hand
+  - first:
+      213: 21300010
+    second: ForeArm
+  - first:
+      213: 21300012
+    second: Flap
+  - first:
+      213: 21300014
+    second: Torso-Back
+  - first:
+      213: 21300016
+    second: Foot
+  - first:
+      213: 21300018
+    second: Shin
+  - first:
+      213: 21300020
+    second: Shoulder-Left
+  - first:
+      213: 21300022
+    second: ForeArm-Left
+  - first:
+      213: 21300024
+    second: Hand-Left
+  - first:
+      213: 21300026
+    second: Alternative
+  - first:
+      213: 21300028
+    second: Torso-Front
+  externalObjects: {}
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 1024
   textureSettings:
-    filterMode: -1
+    serializedVersion: 2
+    filterMode: 1
     aniso: 16
-    mipBias: -1
-    wrapMode: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -50,15 +90,41 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: Thaigh
+    - serializedVersion: 2
+      name: Thaigh
       rect:
         serializedVersion: 2
         x: 82
@@ -66,9 +132,20 @@ TextureImporter:
         width: 181
         height: 356
       alignment: 9
-      pivot: {x: .518055439, y: .88555634}
+      pivot: {x: 0.51805544, y: 0.88555634}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Head
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Head
       rect:
         serializedVersion: 2
         x: 337
@@ -76,9 +153,20 @@ TextureImporter:
         width: 230
         height: 289
       alignment: 7
-      pivot: {x: .5, y: 0}
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Shoulder
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoulder
       rect:
         serializedVersion: 2
         x: 620
@@ -86,9 +174,20 @@ TextureImporter:
         width: 243
         height: 295
       alignment: 9
-      pivot: {x: .396892786, y: .836036623}
+      pivot: {x: 0.3968928, y: 0.8360366}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Sword
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword
       rect:
         serializedVersion: 2
         x: 1078
@@ -96,9 +195,20 @@ TextureImporter:
         width: 77
         height: 622
       alignment: 9
-      pivot: {x: .51414746, y: .133964494}
+      pivot: {x: 0.51414746, y: 0.1339645}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Hand
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand
       rect:
         serializedVersion: 2
         x: 904
@@ -106,9 +216,20 @@ TextureImporter:
         width: 121
         height: 106
       alignment: 9
-      pivot: {x: .184898689, y: .386954546}
+      pivot: {x: 0.18489869, y: 0.38695455}
       border: {x: 2, y: 11, z: 15, w: 8}
-    - name: ForeArm
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForeArm
       rect:
         serializedVersion: 2
         x: 918
@@ -116,9 +237,20 @@ TextureImporter:
         width: 92
         height: 225
       alignment: 9
-      pivot: {x: .464478195, y: .863116562}
+      pivot: {x: 0.4644782, y: 0.86311656}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Flap
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flap
       rect:
         serializedVersion: 2
         x: 611
@@ -126,9 +258,20 @@ TextureImporter:
         width: 110
         height: 210
       alignment: 9
-      pivot: {x: .490096778, y: .826805055}
+      pivot: {x: 0.49009678, y: 0.82680506}
       border: {x: 9, y: 0, z: 2, w: 9}
-    - name: Torso-Back
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torso-Back
       rect:
         serializedVersion: 2
         x: 310
@@ -136,9 +279,20 @@ TextureImporter:
         width: 162
         height: 348
       alignment: 9
-      pivot: {x: 1, y: .284008235}
+      pivot: {x: 1, y: 0.28400823}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Foot
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Foot
       rect:
         serializedVersion: 2
         x: 103
@@ -146,9 +300,20 @@ TextureImporter:
         width: 126
         height: 109
       alignment: 9
-      pivot: {x: .311157465, y: .828022122}
+      pivot: {x: 0.31115746, y: 0.8280221}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Shin
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shin
       rect:
         serializedVersion: 2
         x: 80
@@ -156,9 +321,20 @@ TextureImporter:
         width: 120
         height: 249
       alignment: 9
-      pivot: {x: .509077966, y: .0890401229}
+      pivot: {x: 0.50907797, y: 0.08904012}
       border: {x: 17, y: 0, z: 0, w: 0}
-    - name: Shoulder-Left
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shoulder-Left
       rect:
         serializedVersion: 2
         x: 732
@@ -166,9 +342,20 @@ TextureImporter:
         width: 289
         height: 236
       alignment: 9
-      pivot: {x: .239913151, y: .670787871}
+      pivot: {x: 0.23991315, y: 0.6707879}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ForeArm-Left
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ForeArm-Left
       rect:
         serializedVersion: 2
         x: 1227
@@ -176,9 +363,20 @@ TextureImporter:
         width: 97
         height: 220
       alignment: 9
-      pivot: {x: .432617188, y: .930788636}
+      pivot: {x: 0.4326172, y: 0.93078864}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Hand-Left
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-Left
       rect:
         serializedVersion: 2
         x: 1224
@@ -186,9 +384,20 @@ TextureImporter:
         width: 107
         height: 94
       alignment: 9
-      pivot: {x: .170328021, y: .327531844}
+      pivot: {x: 0.17032802, y: 0.32753184}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Alternative
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alternative
       rect:
         serializedVersion: 2
         x: 1124
@@ -196,9 +405,20 @@ TextureImporter:
         width: 223
         height: 169
       alignment: 9
-      pivot: {x: .231024101, y: .62200743}
+      pivot: {x: 0.2310241, y: 0.6220074}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Torso-Front
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torso-Front
       rect:
         serializedVersion: 2
         x: 472
@@ -206,7 +426,31 @@ TextureImporter:
         width: 113
         height: 262
       alignment: 9
-      pivot: {x: -.00277657784, y: .280273169}
+      pivot: {x: -0.0027765778, y: 0.28027317}
       border: {x: 0, y: 0, z: 0, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 
