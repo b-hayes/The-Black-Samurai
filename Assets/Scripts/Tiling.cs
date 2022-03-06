@@ -11,7 +11,7 @@ public class Tiling : MonoBehaviour {
 	public bool hasARightBuddy = false;
 	public bool hasALeftBuddy = false;
 
-	public bool reverseScale = true;	// used if the object is not tilable
+	public bool reverseScale = true;	// used if the object is not tile-able
 
 	private float spriteWidth = 0f;		// the width of our element
 	private Camera cam;
